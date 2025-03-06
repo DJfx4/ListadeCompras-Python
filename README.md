@@ -1,3 +1,5 @@
+## Lista de Compra Simples em Python
+
 ## 📋 Como Usar
 
 1. O programa exibe automaticamente a lista de compras existente.
