@@ -8,9 +8,9 @@ def gerar_id():
 #Exibe uma introdução para o cliente
 
 def exibir_cabecalho():
-    print("\n" + "-" * 38)
-    print(" |🛒 BEM-VINDO À LISTA DE COMPRAS 🛒|")
-    print("-" * 38 + "\n")
+    print("\n" + "-" * 49)
+    print(" |🛒 BEM-VINDO À LISTA DE COMPRAS SIMPLES 🛒|")
+    print("-" * 49 + "\n")
 
 
 #Mostra a lista atual do cliente
