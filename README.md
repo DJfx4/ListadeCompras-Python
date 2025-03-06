@@ -1,68 +1,29 @@
-# ListadeCompras-Python
-🛒 Documentação - Aplicação de Lista de Compras
+## 📋 Como Usar
 
-📌 Descrição
+1. O programa exibe automaticamente a lista de compras existente.
+2. Você pode escolher entre as seguintes opções:
+   - **1️⃣ Adicionar um novo produto**: Insira nome, unidade de medida, quantidade e descrição.
+   - **2️⃣ Pesquisar um produto**: Busque um item pelo nome ou parte do nome.
+   - **3️⃣ Remover um produto**: Digite o ID do produto para removê-lo.
+   - **4️⃣ Sair**: Encerra o programa.
 
-Este programa implementa uma aplicação simples de lista de compras em Python. Ele permite adicionar, remover, pesquisar e listar produtos, garantindo um controle eficiente da lista de compras do usuário.
+---
 
-✨ Funcionalidades
+## 📂 Estrutura do Código
 
-🎉 Exibição de um cabeçalho de boas-vindas.
+O código está organizado em funções para melhor legibilidade e manutenção:
 
-➕ Adição de produtos com ID único, nome, unidade de medida, quantidade e descrição.
+- `gerar_id()`: Gera um ID único de 8 caracteres.
+- `exibir_cabecalho()`: Exibe o cabeçalho estilizado do programa.
+- `exibir_lista(lista)`: Formata e exibe a lista de compras.
+- `adicionar_produto(lista)`: Adiciona um novo produto com entrada validada.
+- `remover_produto(lista)`: Remove um item da lista pelo ID.
+- `pesquisar_produto(lista)`: Busca produtos pelo nome e exibe os resultados.
+- `menu()`: Controla o fluxo principal do programa.
 
-🗑️ Remoção de produtos com base no ID.
+---
 
-🔍 Pesquisa de produtos pelo nome ou parte do nome.
+## 🛠️ Tecnologias Utilizadas
 
-📋 Listagem automática da lista de compras sempre que o menu principal é exibido.
-
-⚠️ Tratamento de entradas inválidas.
-
-✅ Feedback ao usuário sobre as ações realizadas.
-
-❌ Opção para encerrar o programa.
-
-🛠️ Estrutura do Código
-
-🔢 gerar_id(): Gera um ID único para cada produto.
-
-🎩 exibir_cabecalho(): Exibe uma mensagem de boas-vindas.
-
-📋 exibir_lista(lista): Exibe os produtos na lista.
-
-➕ adicionar_produto(lista): Permite adicionar um novo produto à lista.
-
-🗑️ remover_produto(lista): Remove um produto com base no ID informado.
-
-🔍 pesquisar_produto(lista): Pesquisa produtos pelo nome ou parte do nome.
-
-📌 menu(): Controla a interação do usuário com o programa, exibindo opções e processando as escolhas.
-
-📖 Como Usar
-
-🚀 Execute o programa.
-
-Escolha uma opção do menu:
-
-[1] ➕ Adicionar Produto
-
-[2] 🔍 Pesquisar Produto
-
-[3] 🗑️ Remover Produto
-
-[4] ❌ Sair
-
-Siga as instruções exibidas na tela para manipular sua lista de compras.
-
-Para sair, selecione a opção 4.
-
-💻 Tecnologias Utilizadas
-
-🐍 Python 3
-
-🔑 Biblioteca uuid para geração de IDs únicos
-
-👨‍💻 Autor
-
-Desenvolvido por Demétrio.j
+- **Python 3**
+- **Biblioteca `uuid`** (para geração de IDs únicos)
